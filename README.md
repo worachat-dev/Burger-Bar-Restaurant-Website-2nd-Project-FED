@@ -64,9 +64,19 @@ A discount advertisement pop-up has been implemented to capture users' attention
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+## Contact
+
+For any inquiries or issues, please contact me!
+
+## Author
+
+- **Worachat W, Dev.** - *Data Science, Engineering & Full Stack Dev. 2024*  
+  [LinkedIn](https://www.linkedin.com/in/brainwaves-your-ai-playground-82155961/) | [GitHub](https://github.com/worachat-dev) | [Facebook](https://web.facebook.com/NutriCious.Thailand)
+
 ## Acknowledgments
 
 I would like to thank "Zaxel" for providing clear guidance on for the bigmack tutorial with js, html and css code files.
 
 
 ---
+Thank you for visiting Burger Bar Cafe's website repository!
