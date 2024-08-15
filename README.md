@@ -32,11 +32,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/burger-bar-cafe.git
+   git clone https://github.com/worachat-dev/Burger-Bar-Restaurant-Website-2nd-Projects-FED.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd burger-bar-cafe
+   cd Burger-Bar-Restaurant-Website-2nd-Projects-FED
    ```
 3. Open the `index.html` file in your preferred web browser.
 
