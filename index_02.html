@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>NK Burger Bar Cafe</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo-dark.png" alt="logo" class="nav__logo-dark">
+              <img src="assets/logo-white.png" alt="logo" class="nav__logo-white">
+            </a>
+          </div>
+          <button class="nav__menu__btn" id="menu-btn" aria-label="Toggle Navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#special">Special</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#event">Events</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="Delicious burger">
+        </div>
+        <div class="header__content">
+          <h2>It's a Good Time for a Great Taste of Burger</h2>
+          <h1>Burger <br /><span>Day</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section__container banner__container" id="special">
+        <div class="banner__card">
+          <p>Try It Out Today</p>
+          <h4>Most Popular Burger</h4>
+        </div>
+        <div class="banner__card">
+          <p>Try It Out Today</p>
+          <h4>More Fun<br />More Taste</h4>
+        </div>
+        <div class="banner__card">
+          <p>Try It Out Today</p>
+          <h4>Fresh & Chili</h4>
+        </div>
+      </section>
+
+      <section class="section__container order__container" id="menu">
+        <h3>Always Tasty Burgers</h3>
+        <h2 class="section__header">Choose & Enjoy</h2>
+        <p class="section__description">
+          Whether you crave classic flavors or daring combinations, this is where your culinary journey begins. Indulge your cravings and savor every bite as you create your personalized burger experience with Burger Company.
+        </p>
+        <div class="order__grid">
+          <div class="order__card">
+            <img src="assets/order-1.png" alt="Chicken Burger">
+            <h4>Chicken Burger</h4>
+            <p>Sink your teeth into the timeless perfection of our Chicken Burger, an experience that never goes out of style.</p>
+            <button class="btn">Order Now</button>
+          </div>
+          <div class="order__card">
+            <img src="assets/order-2.png" alt="Veggie Delight Burger">
+            <h4>Veggie Delight Burger</h4>
+            <p>Embrace the vibrant flavors of our Veggie Delight Burger, a celebration of freshness and wholesome goodness.</p>
+            <button class="btn">Order Now</button>
+          </div>
+          <div class="order__card">
+            <img src="assets/order-3.png" alt="BBQ Bacon Burger">
+            <h4>BBQ Bacon Burger</h4>
+            <p>Indulge in a symphony of smoky, savory flavors with our BBQ Bacon Burger, grilled and topped with crispy bacon.</p>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__container event__container" id="event">
+        <div class="event__content">
+          <div class="event__image">
+            <img src="assets/event.png" alt="Upcoming event">
+          </div>
+          <div class="event__details">
+            <h3>Discover</h3>
+            <h2 class="section__header">Upcoming Events</h2>
+            <p class="section__description">
+              From exclusive burger tastings and chef collaborations to community outreach initiatives and seasonal celebrations, there's always something special on the horizon at Burger Company. Be the first to know about our upcoming events, promotions, and gatherings as we continue to bring joy and flavor to our cherished customers. Join us in creating memorable moments and delicious memories together!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation" id="contact">
+        <div class="section__container reservation__container">
+          <h3>Reservation</h3>
+          <h2 class="section__header">Book Your Table</h2>
+          <form action="/" method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="date" name="date" placeholder="Date" required>
+            <input type="time" name="time" placeholder="Time" required>
+            <input type="number" name="people" placeholder="People" required>
+            <button class="btn" type="submit">Find Table</button>
+          </form>
+        </div>
+        <img src="assets/reservation-bg-1.png" alt="Reservation background" class="reservation__bg-1">
+        <img src="assets/reservation-bg-2.png" alt="Reservation background" class="reservation__bg-2">
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="Burger Company Logo">
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Burger Company, where passion for exceptional food and genuine hospitality come together. Our story is one of dedication to crafting the perfect burger experience, from sourcing the finest ingredients to delivering unparalleled taste in every bite.
+          </p>
+          <address>
+            <ul class="footer__links">
+              <li><span><i class="fas fa-map-pin"></i></span> 43 Liab Khlong Phasi Charoen Fang Tai Road, Nong Khaem Subdistrict, Nong Khaem District, Bangkok 10160</li>
+              <li><span><i class="fas fa-envelope"></i></span> nongkhaem@nk.ac.th</li>
+            </ul>
+          </address>
+          <div class="footer__socials">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        &copy; 2024 Mathayomwat Nong Khaem School. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
