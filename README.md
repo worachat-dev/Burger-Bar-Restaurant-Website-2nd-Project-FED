@@ -66,7 +66,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-I would like to thank "Zaxel" for providing clear guidance on for the bigmack tutorial with js, html and css.
+I would like to thank "Zaxel" for providing clear guidance on for the bigmack tutorial with js, html and css code files.
 
 
 ---
